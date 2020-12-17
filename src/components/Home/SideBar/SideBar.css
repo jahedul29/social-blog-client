@@ -1,0 +1,16 @@
+.sidebar {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  padding: 20px 10px;
+  background-color: rgba(222, 225, 230, 0.596);
+  margin-top: 20px;
+  border-radius: 10px;
+}
+
+.sidebar a {
+  color: black;
+  font-size: 17px;
+  font-weight: 500;
+  margin: 10px 0;
+}

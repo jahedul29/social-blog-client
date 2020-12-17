@@ -1,0 +1,14 @@
+#register-form {
+  width: 400px;
+  margin: auto;
+}
+
+#register-form input {
+  margin: 7px 0;
+}
+
+.middleContainer {
+  background-color: rgba(241, 243, 245, 0.596);
+  margin-top: 10px;
+  padding: 10px 10px;
+}

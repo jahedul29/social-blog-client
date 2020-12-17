@@ -1,0 +1,7 @@
+.navbar {
+  box-shadow: 0.5px 0.5px 5px gray;
+}
+.nav-link {
+  color: rgb(58, 53, 53) !important;
+  font-weight: 500;
+}

@@ -1,0 +1,30 @@
+.home-post {
+  box-shadow: 0.5px 0.5px 5px gray;
+  padding: 20px;
+  margin: 15px auto;
+}
+
+.home-post-image {
+  height: 200px;
+  width: 200px;
+}
+.home-post-image img {
+  width: 100%;
+}
+
+.home-post-text {
+  color: #042c4d;
+  padding: 10px;
+}
+
+.comment-input {
+  width: 100%;
+  border-radius: 20px;
+  height: 100%;
+  padding: 8px 10px;
+  border: 1px solid rgb(153, 150, 150);
+}
+
+.comment-input:focus {
+  outline: none;
+}

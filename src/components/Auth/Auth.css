@@ -1,0 +1,69 @@
+.login-container {
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.input-form-container {
+  width: 90%;
+}
+
+.form-container {
+  margin: auto;
+  width: 400px;
+  padding-top: 3%;
+  border-radius: 8px;
+  padding-bottom: 15px;
+  -moz-box-shadow: inset 0 0 5px gray;
+  -webkit-box-shadow: inset 0 0 5px gray;
+  box-shadow: inset 0 0 5px gray;
+}
+#signing-form {
+  width: 360px;
+}
+.form-container input {
+  width: 360;
+  margin: 12px 0;
+  height: 40px;
+  background-color: #e4e1e180;
+  border-radius: 5px;
+}
+
+.error {
+  color: red;
+}
+
+.submit-btn {
+  background-color: rgb(129, 185, 133) !important;
+  color: black !important;
+}
+
+.submit-btn:disabled {
+  background-color: gray !important;
+}
+.toggle-btn {
+  color: rgb(192, 114, 138) !important;
+}
+
+@media only screen and (max-width: 430px) {
+  .form-container {
+    width: 95%;
+    margin: auto;
+  }
+  .signing-form {
+    width: 96%;
+    margin: auto;
+  }
+
+  .form-container h4 {
+    text-align: center;
+  }
+
+  .form-container input {
+    width: 99%;
+  }
+
+  .input-form-container {
+    width: 95%;
+  }
+}
