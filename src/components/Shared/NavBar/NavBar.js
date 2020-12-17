@@ -16,7 +16,7 @@ const NavBar = () => {
 
   return (
     <Navbar className="px-5" collapseOnSelect expand="lg" bg="white">
-      <Navbar.Brand onClick={() => history.push("/userHome")} href="#home">
+      <Navbar.Brand onClick={() => history.push("/userHome")}>
         SocialBlog
       </Navbar.Brand>
 
