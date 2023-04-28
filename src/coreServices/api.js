@@ -1,1 +1,1 @@
-export const baseUrl = "https://j-social-blog.herokuapp.com";
+export const baseUrl = "https://social-blog-server.cyclic.app";
